@@ -2,10 +2,10 @@ iteration = 1
 
 #The function whose root we want to find
 def f(x):
-    f = float(x) * float(x) - float(x) + 1
+    f = float(x) * float(x) - float(x) - 1
     return f
 
-#Generating third point
+#Generating the third point
 def uc(f0, f1, x0, x1):
     uc = ( float(x0) * float(f1) - float(x1) * float(f0) ) / ( float(f1) - float(f0))
     return uc
@@ -22,7 +22,7 @@ def yeni(a, b, c):
         x1 = b 
         return (x0,x1)
     else :
-        print("Kökün değeri " , c , " dir.")
+        print("Root of function is" , c)
 
 
 print("Our function is, f = x*x - x - 1")
