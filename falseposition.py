@@ -24,7 +24,7 @@ def yeni(a, b, c):
     else :
         print("Root of function is" , c)
 
-
+#After changing the function you're searching the root for, you might want to update this part as well 
 print("Our function is, f = x*x - x - 1")
 
 x0 = input("Please enter a begining point: ")
